@@ -1,0 +1,49 @@
+body {
+    background-color: #0C330C;
+    font-family: sans-serif;
+}
+#todoForm {
+    margin: 5px;
+    text-align: center;
+    color: #946d4d;
+}
+input {
+    display: block;
+    margin: 5px auto;
+    height: 30px;
+    background-color: #586935;
+    border: 1px solid #586935;
+
+}
+input[type="submit"], button {
+    display: block;
+    margin: 5px auto;
+    background-color: #705239;
+    border: 1px solid #705239;
+    border-radius: 3px;
+    color: #261303;
+}
+button {
+    display: inline-block;
+    margin: 5px;
+    float: right;
+}
+.todo {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #261303;
+    display: flex;
+}
+h3, p, button {
+    flex: 1;
+}
+h3 {
+    color: #946d4d;
+}
+p {
+    color: #586935;
+    display: inline-block;
+}
+.completed {
+    background-color: #031F03;
+}
